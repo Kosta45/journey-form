@@ -108,7 +108,7 @@ ul {
 }
 
 .main-sign-square {
-  align-self: self-end;
+  align-self: flex-end;
   width: 18px;
   height: 18px;
   background: #3cb878;
