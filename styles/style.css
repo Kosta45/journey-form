@@ -1,0 +1,316 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-wrapper {
+  background-image: url("../images/backgound.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1206px;
+  margin-inline: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 18px;
+}
+
+.header-wrapper {
+  background-color: rgb(0 0 0 / 41%);
+}
+
+.header-logo {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.header-nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+}
+
+.header-menu-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.header-menu-mail,
+.header-menu-compas,
+.header-menu-calendar {
+  object-fit: contain;
+}
+
+.header-auth {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+  margin: 0;
+  padding-left: 27px;
+  border-left: 1px solid rgba(255 255 255 / 50%);
+}
+
+.header-auth-btn {
+  border: none;
+  background: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.header-link-accent:hover {
+  color: #01813f;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-block: 54px 74px;
+}
+
+.main-sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 444px;
+  padding-inline: 60px;
+}
+
+.main-sign-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+  width: 100%;
+  position: relative;
+}
+
+.main-sign-square {
+  align-self: self-end;
+  width: 18px;
+  height: 18px;
+  background: #3cb878;
+  position: absolute;
+  right: 366px;
+}
+
+.header-sign-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #434343;
+}
+
+.header-sign-link {
+  align-self: self-end;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #3cb878;
+  transition: color 0.3s ease;
+}
+
+.header-sign-link:hover {
+  color: #01813f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main-sign-socials {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.main-sign-social {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  width: 160px;
+  margin-bottom: 35px;
+}
+
+.main-sign-img {
+  width: 50px;
+}
+
+.sign-facebook {
+  background-color: #305db8;
+  transition: background-color 0.3s ease;
+}
+
+.sign-facebook:hover {
+  background-color: #022263;
+  cursor: pointer;
+}
+
+.sign-img-facebook {
+  border-right: 1px solid rgb(10 22 47 / 10%);
+}
+
+.sign-google {
+  background-color: #df4a32;
+  transition: background-color 0.3s ease;
+}
+
+.sign-google:hover {
+  background-color: #ab1f09;
+  cursor: pointer;
+}
+
+.sign-img-google {
+  border-right: 1px solid rgb(43 13 9 / 10%);
+}
+
+.sign-social-text {
+  font-weight: 400;
+  margin-inline: auto;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.main-sign-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #848484;
+}
+
+.main-sign-divider::before,
+.main-sign-divider::after {
+  content: "";
+  flex-grow: 1;
+  margin-top: 4px;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.main-sign-form {
+  width: 100%;
+}
+
+.sign-form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sign-form-checkbox {
+  margin-bottom: 20px;
+}
+
+.sign-form-input {
+  font: inherit;
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #bebebe;
+  border: 1px solid #f2f2f2;
+}
+
+.sign-form-input:focus {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.21);
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.sign-form-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #434343;
+  margin-block: auto;
+}
+
+.sign-form-terms {
+  color: #3cb878;
+  transition: color 0.3s ease;
+}
+
+.sign-form-terms:hover {
+  color: #01813f;
+  text-decoration: underline;
+}
+
+.sign-checkbox-input {
+  display: none;
+}
+
+.custom-checkbox-input {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #f2f2f2;
+  border-radius: 0px;
+  margin-right: 8px;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+}
+
+.sign-form-label
+  input[type="checkbox"]:checked
+  + .custom-checkbox-input::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #3cb878;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.sign-create-btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+  width: 100%;
+  background: rgba(60, 184, 120, 0.8);
+  margin-bottom: 45px;
+  border: 0;
+  border-radius: 4px;
+  padding-block: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-create-btn:hover {
+  background-color: #01813f;
+}
